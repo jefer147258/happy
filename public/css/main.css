@@ -1,0 +1,31 @@
+/*o que é uma regra css ?*/
+/*vai considerar sempre o ultimo elementro escrito*/
+/*o simbolo de # especifica um ID, ou seja, id="body"*/
+/* Layout responsivo - Adpata-se tanto para mobile quanto para web - Mobile First*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    color: white;
+    background: #EBF2F5;
+}
+
+:root {
+    font-size: 62.5%; /*16px é padrão, ou seja, 63.5% é 10px*/
+}
+
+body, input, button, textarea {
+    /* elementos separadas, substituídos pelo font
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif; */
+
+    font: 400 1.8rem/1 'Nunito', sans-serif; 
+}
+
